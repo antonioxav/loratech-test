@@ -44,3 +44,12 @@ Parameters
 3. time_window: number of days of prices required
 
 Note: API will only retrieve stock data until 3 months for unauthenticated users.
+
+## For the purposes of this assignment, database connection parameters are stored in database.ini, which has not been uploaded to the repo, but follows the following format:
+```
+[postgresql]
+host = localhost
+database = mydb
+user = postgres
+password = ******
+```
